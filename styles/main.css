@@ -1,0 +1,635 @@
+/* ==========================================
+
+DEFAULT VALUES:
+
+    Font Family:    Roboto Consend
+
+    Colors:         #5F4BB6 
+                    #119DA4 (underlines)
+                    #22031F
+                    #000000 (headings)
+                    #0A369D
+                    #303038 (paragraphs)
+
+============================================*/
+
+/* General CSS */
+
+html,
+body {
+    height: 100%;
+    font-size: 18px;
+}
+
+body {
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+h3 {
+    color: #000000;
+
+}
+
+p {
+    color: #303038;
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+
+
+/*==========================================
+
+        NAVIGATION SECTION
+
+===========================================*/
+.nav-item a.nav-link {
+    color:  #fff !important;
+}
+.nav-item a.nav-link:hover {
+    color:  #119DA4 !important;
+}
+.bg-dark {
+    background-color: rgba(0, 0, 0, 0.8) !important;
+}
+.size-title {
+    font-size: 1.5rem;
+}
+.size-menu {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+
+.navbar-toggler { 
+    border-radius: 0;
+}
+
+
+/*==========================================
+
+        HOME SECTION
+
+===========================================*/
+
+#home {
+    height: 100%;
+}
+
+#home-cover {
+    height: 100%;
+    background-image: url(../assets/bg-main.jpg);
+
+}
+
+#home-content-box {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#home-content-box-inner {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    padding-bottom: 20px;
+
+}
+
+#home-heading h1 {
+    color: #fff;
+    font-size: 5rem;
+    font-weight: 300;
+    margin: 20px 0 20px 0;
+
+}
+
+#subtitle {
+    color: #fff;
+    padding-left: 10%;
+    font-size: 1.4rem;
+}
+
+/*=====================================
+
+        Parallax effect
+
+=====================================*/
+
+.bg-parallax {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/*=====================================
+
+         Buttons
+
+=====================================*/
+
+.btn-general {
+    border-radius: 0;
+}
+
+.btn:hover {
+    color: #000000;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-color: #000000;
+}
+
+/*=====================================
+
+        CONTENT (Generic)
+
+=====================================*/
+
+.content-box {
+    padding: 60px 0 20px 0;
+
+}
+
+.content-title {
+    margin: 80px 0 60px 0;
+}
+
+.content-title h3 {
+    font-size: 2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0 0 30px 0;
+}
+
+.content-title-underline {
+    width: 30px;
+    height: 3px;
+    background-color: #119DA4;
+    margin: 0 auto 30px auto;
+}
+
+input {
+    display: block;
+}
+
+/*=====================================
+
+        ACCOMMODATION 
+
+=====================================*/
+
+.accommodation-item {
+    padding: 20px 0 20px 0;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.accommodation-item-icon i {
+    color: #119DA4;
+    float: left;
+    padding: 15px;
+    margin: 25px;
+
+    text-align: center;
+}
+
+.accommodation-item:hover .accommodation-item-icon i {
+    color: #fff;
+    background-color: #119DA4;
+}
+
+.accommodation-item-title h3 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin: 0 0 10px 0;
+}
+
+.accommodation-item-description p {
+    margin: 0;
+    padding-left: 40px;
+}
+
+/*=====================================
+
+        ABOUT
+
+=====================================*/
+
+#about-bg-parallax {
+    width: 60%;
+    height: 700px;
+    float: right;
+    background-image: url(../assets/family.jpg);
+    border-left: 200px solid #fff;
+    border-top: 700px solid #ffff0200;
+}
+
+#about-content-box {
+    float: left;
+    height: 740px;
+
+}
+
+#about .content-title {
+    margin: 0 0 60px 0;
+}
+
+#about-content-box-outer {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.container #about-content-box .content-title h3 {
+    text-align: left;
+}
+
+.container #about-content-box .content-title .content-title-underline {
+    margin: 0 0 30px 0;
+}
+
+.btn-about {
+    color: #119DA4;
+    border-color: #119DA4;
+    text-transform: uppercase;
+}
+
+.btn-about:hover {
+    color: #fff;
+    background-color: #119DA4;
+    border-color: #119DA4;
+}
+
+.container #about-description p {
+    margin-bottom: 40px;
+}
+
+/*=====================================
+
+        PHOTO GALLERY
+
+=====================================*/
+
+.row.no-padding [class*=col-] {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.fill {
+    width: 100%;
+}
+
+.img-wrapper {
+    height: 100%;
+    overflow: hidden;
+}
+
+.img-wrapper img {
+    height: 100%;
+    transition: transform 0.7s;
+}
+
+.img-wrapper img:hover {
+    transform: scale(1.3);
+
+}
+
+
+/*=====================================
+
+        TESTIMONIALS SECTION        
+
+=====================================*/
+
+
+#testimonials-cover {
+    background-image: url(../assets/backgrounds/bg-edited.png);
+   
+}
+
+#testimonials .content-box {
+    height: 740px;
+    background-color: rgb(0, 0, 0, 0.7);
+}
+
+#testimonials .content-title h3,
+#testimonials .testimonial p,
+#testimonials .testimonial span {
+    color: #fff;
+}
+
+#testimonials .testimonial {
+    padding-top: 30px;
+}
+
+.testimonial-author {
+    margin-top: 30px;
+}
+
+#testimonials .testimonial p {
+    margin-bottom: 0;
+}
+
+.testimonial blockquote {
+    font-family: Georgia, sans-serif;
+    font-style: italic;
+    padding: 6px 150px;
+    position: relative;
+}
+
+.testimonial blockquote::before,
+.testimonial blockquote::after {
+    font-size: 80px;
+    font-style: normal;
+    line-height: 1;
+    width: 30px;
+    height: 30px;
+    color: #fff;
+    position: absolute;
+
+}
+
+.testimonial blockquote::before {
+    content: "\201C";
+    top: 0;
+    left: 100px;
+
+}
+
+.testimonial blockquote::after {
+    content: "\201D";
+    bottom: 0;
+    right: 100px;
+}
+
+/*=====================================
+
+        PRICING SECTION        
+
+=====================================*/
+
+.pricing-box {
+    border: 3px solid #119DA4;
+    margin: 20px;
+    padding: 20px;
+}
+
+.btn-pricing-middle {
+    color: #fff;
+    text-transform: uppercase;
+
+}
+
+#pricing .btn-pricing-middle:hover {
+    background-color: #fff;
+    color: #119DA4;
+    border-color: #119DA4;
+}
+
+h4.pricing-title {
+    background-color: #119DA4;
+    color: #fff;
+    display: inline-block;
+    padding: 7px 15px;
+    font-size: 0.8rem;
+    font-weight: 700;
+    margin: 0 0 30px 0;
+    text-transform: uppercase;
+}
+
+h3.pricing-value {
+    font-size: 2.5rem;
+    font-weight: 700;
+    
+}
+
+h3.pricing-value sup {
+    font-weight: normal;
+
+}
+
+ul.pricing-spec {
+    list-style: none;
+    padding-left: 0;
+    margin: 20px;
+    text-transform: uppercase;
+}
+
+.pricing-box-middle {
+    padding: 90px 0;
+    margin: 0;
+    background-color: #119DA4;
+}
+
+.pricing-box-middle h4.pricing-title {
+    color: #119DA4;
+    background-color: #fff;
+}
+
+.pricing-box-middle ul.pricing-spec li p {
+    color: #fff;
+}
+
+#pricing a {
+    width: 60%;
+
+}
+
+#pricing a:hover {
+    background-color: #fff;
+    background-color: #119DA4;
+}
+
+/*=====================================
+
+        STATS SECTION        
+
+=====================================*/
+
+#stats-cover {
+    background-image: url("../assets/backgrounds/umbrella.jpg");
+
+}
+
+.stats-item {
+    text-align: center;
+    margin-top: 80px;
+}
+
+.stats-item-icon {
+    margin-bottom: 75px;
+
+    color: #119DA4;
+}
+
+.stats-item-title h2 p {
+    margin-top: 25px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+#stats .content-box {
+    height: 840px;
+    background-color: rgb(0, 0, 0, 0.8);
+}
+
+#stats .content-title h3 {
+    color: #fff;
+}
+
+.stats-item h2 {
+    color: #fff;
+    font-weight: 700;
+
+}
+
+
+/*=====================================
+
+        CONTACT SECTION        
+
+=====================================*/
+
+footer {
+    background-color: #43464B;
+    padding-top: 30px;
+    border-top: 5px solid rgba(0, 0, 0, 0.1);
+}
+footer .padd {
+    padding: 80px 150px;
+}
+#contact-left-social {
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+
+}
+
+#contact-left-social li {
+    margin: 60px 20px 0 20px;
+}
+
+#contact-left-social li.first-list-item {
+    margin-left: 0;
+}
+
+.social-icon {}
+
+.icon-white {
+    color: #fff;
+
+}
+
+.icon-white:hover {
+    color: #119DA4;
+}
+
+#contact-left-wrapper h4,
+#contact-right-wrapper h4 {
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #fff;
+    font-size: 2.6rem;
+    margin-bottom: 0;
+}
+
+#contact-left-wrapper p {
+    color: #fff;
+    font-size: 1.5rem;
+    
+}
+.no-padd {
+    margin-bottom: 0;
+}
+.btn-contact {
+    color: #fff;
+    background-color: #43464B;
+    border-color: #fff;
+}
+
+.btn-contact:hover {
+    background-color: #119DA4;
+}
+
+#contact-left-wrapper {
+    background-image: url(../assets/backgrounds/bg-krk-4.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+form .form-style {
+    width: 100%;
+    background: transparent;
+    border-radius: 0;
+    border-color: #fff;
+    font-size: 1.2rem;
+    font-weight: 300;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+/*=====================================
+
+        FOOTER SECTION        
+
+=====================================*/
+
+footer #bg-footer-cover {
+    background-color: #282929;
+}
+
+footer #footer-container {
+    padding: 0;
+    border-top: 5px solid rgba(0, 0, 0, 0.1);
+    
+}
+
+#footer-row {
+    padding: 30px 80px 30px 80px;
+    
+}
+footer .footer-copyright p {
+    color: #5d5f62;
+}
+footer .footer-copyright span {
+    color: #119DA4;
+}
+
+.footer- {
+    float: right;
+    color: #fff;
+    font-size: 1.4rem;
+    font-weight: 300;
+}
+
+.footer- p {
+    color: #fff;
+}
+
+.footer- p a {
+    text-decoration: none;
+    transition: all 0.5s;
+    display: inline-block;
+}
+
+.footer- p a:hover {
+    transform: scale(1.5);
+    text-shadow: 2px 2px #000000;
+    color: #fff;
+    background-color: #119DA4;
+    border-radius: 10px 10px 10px 10px;
+    border: 2px solid #000000;
+    padding: 0 2px 0 2px ;
+}
+
+
+
