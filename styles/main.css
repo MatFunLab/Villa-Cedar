@@ -42,24 +42,29 @@ p {
         NAVIGATION SECTION
 
 ===========================================*/
+
 .nav-item a.nav-link {
-    color:  #fff !important;
+    color: #fff !important;
 }
+
 .nav-item a.nav-link:hover {
-    color:  #119DA4 !important;
+    color: #119DA4 !important;
 }
+
 .bg-dark {
     background-color: rgba(0, 0, 0, 0.8) !important;
 }
+
 .size-title {
     font-size: 1.5rem;
 }
+
 .size-menu {
     font-size: 1.2rem;
     text-transform: uppercase;
 }
 
-.navbar-toggler { 
+.navbar-toggler {
     border-radius: 0;
 }
 
@@ -308,10 +313,9 @@ input {
 
 =====================================*/
 
-
 #testimonials-cover {
     background-image: url(../assets/backgrounds/bg-edited.png);
-   
+
 }
 
 #testimonials .content-box {
@@ -407,7 +411,7 @@ h4.pricing-title {
 h3.pricing-value {
     font-size: 2.5rem;
     font-weight: 700;
-    
+
 }
 
 h3.pricing-value sup {
@@ -503,14 +507,16 @@ footer {
     padding-top: 30px;
     border-top: 5px solid rgba(0, 0, 0, 0.1);
 }
+
 footer .padd {
     padding: 80px 150px;
     background-image: url(../assets/backgrounds/bg-krk-4.png);
     background-repeat: no-repeat;
     background-position: left;
-    
-    
+
+
 }
+
 #contact-left-social {
     list-style: none;
     display: flex;
@@ -549,11 +555,13 @@ footer .padd {
 #contact-left-wrapper p {
     color: #fff;
     font-size: 1.5rem;
-    
+
 }
+
 .no-padd {
     margin-bottom: 0;
 }
+
 .btn-contact {
     color: #fff;
     background-color: #43464B;
@@ -590,16 +598,18 @@ footer #bg-footer-cover {
 footer #footer-container {
     padding: 0;
     border-top: 5px solid rgba(0, 0, 0, 0.1);
-    
+
 }
 
 #footer-row {
     padding: 30px 80px 30px 80px;
-    
+
 }
+
 footer .footer-copyright p {
     color: #5d5f62;
 }
+
 footer .footer-copyright span {
     color: #119DA4;
 }
@@ -628,8 +638,5 @@ footer .footer-copyright span {
     background-color: #119DA4;
     border-radius: 10px 10px 10px 10px;
     border: 2px solid #000000;
-    padding: 0 2px 0 2px ;
+    padding: 0 2px 0 2px;
 }
-
-
-
