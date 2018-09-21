@@ -23,6 +23,11 @@
     html {
        font-size: 0.8rem;
     }
+    #home-cover {
+    height: 100%;
+    background-image: url(../assets/bg-main-small.png);
+
+}
    .testimonial blockquote {
         padding: 0px;
     }
