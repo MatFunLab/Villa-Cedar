@@ -1,0 +1,64 @@
+/* small devices*/
+
+@media (max-width: 991px) and (min-width: 768px) {
+    
+}
+
+/* x-small devices*/
+
+@media (max-width: 767px) {
+    .testimonial blockquote::before, .testimonial blockquote::after {
+        font-size: 50px;
+    }
+    footer .padd {
+    padding: 3px;
+    background-image: none; 
+}
+   
+}
+
+/* xx-small devices*/
+
+@media (max-width: 522px)   {
+    html {
+       font-size: 0.8rem;
+    }
+   .testimonial blockquote {
+        padding: 0px;
+    }
+    .testimonial blockquote::before {
+        font-size: 30px;
+        left: 1px;
+        top: -15px;
+    }
+    .testimonial blockquote::after {
+        font-size: 30px;
+        right: 12px;
+        top: 65px;
+    }
+    #footer-row {
+    padding: 2px;
+    
+}
+}
+
+/* xxx-small devices*/
+
+@media (max-width: 400px) {
+   html {
+       font-size: 0.6rem;
+    }
+    .testimonial blockquote {
+        padding: 0px;
+    }
+    .testimonial blockquote::before {
+        font-size: 30px;
+        left: 1px;
+        top: -15px;
+    }
+    .testimonial blockquote::after {
+        font-size: 30px;
+        right: 12px;
+        top: 65px;
+    }
+}

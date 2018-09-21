@@ -505,6 +505,11 @@ footer {
 }
 footer .padd {
     padding: 80px 150px;
+    background-image: url(../assets/backgrounds/bg-krk-4.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    
+    
 }
 #contact-left-social {
     list-style: none;
@@ -559,12 +564,7 @@ footer .padd {
     background-color: #119DA4;
 }
 
-#contact-left-wrapper {
-    background-image: url(../assets/backgrounds/bg-krk-4.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    
-}
+
 
 form .form-style {
     width: 100%;
